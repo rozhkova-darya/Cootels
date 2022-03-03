@@ -13,6 +13,12 @@ $footer: #d9dbde;
   box-sizing: border-box;
   transition: opacity 0.5s, transform 1.5s;
 }
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -28,6 +34,7 @@ body {
   color: $dark-blue;
   font-size: 1.125rem;
   font-weight: 400;
+  overflow-x: hidden;
   &.offscroll {
     position: fixed;
     width: 100%;
